@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+    }
+  </style>
+</head>
+
+<body class="bg-[#121214]">
+  <header class="flex w-full justify-center items-center bg-[#323238] text-[26px] font-bold text-white h-[100px]">
+    <img src="./assets/Ignite simbol.svg" alt="Ignite" class="mr-[15.99px]">
+    <h1>Ignite Feed</h1>
+  </header>
+  <main>
+    <section class="flex mt-[32px] w-[1120px] mx-auto gap-10">
+      <div class="bg-[#323238] rounded-[8px] flex flex-col items-center w-[256px] h-[294px]">
+        <img class="w-[256px] h-[72px] rounded-t-[8px] object-cover brightness-75" src="/assets/capa.avif"
+          alt="capa-de-fundo">
+        <img class="w-[50px] h-[50px] -mt-[25px] z-10 border-2 rounded-[4px] border-[#00B37E]"
+          src="https://github.com/juliocesarfg2004.png" alt="avatar">
+        <div class="mt-4 mb-4 flex flex-col justify-center items-center">
+          <h4 class="text-white text-[16px] font-bold">Júlio César</h4>
+          <p class="text-[#8d8d99] text-[14px]">Dev Front-End</p>
+        </div>
+        <hr class="w-full border-[#E5E5E5] mb-[24px] mt-[24px]">
+        <div
+          class="flex items-center justify-center gap-[10px] w-[192px] h-[50px] border border-[#00875f] rounded-[8px] mb-6">
+          <img src="assets/Vector.png" alt="Lápis" class="">
+          <button
+            class="text-[#00875f] text-[16px] font-[700] transition-all duration-300 hover: hover:bg-transparent hover:text-green-500">Editar
+            seu perfil</button>
+        </div>
+      </div>
+
+      <div class="flex flex-col flex-1 gap-10">
+        <div class="bg-[#323238] rounded-[8px] flex flex-col flex-1 w-full p-[40px]">
+          <div class="flex justify-between items-center">
+
+            <div class="flex gap-[16px]">
+              <img class="w-[60px] h-[60px] border-2 border-[#00B37E] rounded-[4px]"
+                src="https://github.com/juaopedrosilva.png" alt="avatar">
+              <div class="flex flex-col justify-center">
+                <h4 class="text-white text-[16px]">João Pedro</h4>
+                <p class="text-[14px] text-[#8d8d99]">Dev Frot-End Senior</p>
+              </div>
+            </div>
+            <span class="text-[#8d8d99]">Publicado há 1h</span>
+          </div>
+          <div>
+            <p class="text-[#b9b9c1] mt-8">Fala galeraa 👋</p>
+            <p class="text-[#b9b9c1] mt-8">Acabei de subir mais um projeto no meu portifa. É um projeto que fiz no NLW
+              Return, evento da Rocketseat. O nome do projeto é DoctorCare 🚀</p>
+            <p class="text-[#00B37E] mt-8">👉 jane.design/doctorcare</p>
+            <p class="text-[#00B37E] mt-8">#novoprojeto #nlw #rocketseat</p>
+          </div>
+          <hr class="w-full border-[#E5E5E5] mt-[24px] mb-[24px]">
+          <div class="flex flex-col gap-[16px]">
+            <h3 class="font-bold text-[16px] text-[#E1E1E6]">Deixe seu feedback</h3>
+            <input type="text" placeholder="Nossa, adorei amigo! Parabéns"
+              class="text-[#b9b9c1] px-[16px] pb-[48px] bg-black w-[752px] h-[96px] rounded-[8px] border-1 border-[#00B37E]">
+            <div class="flex justify-center w-[108px] h-[49px] bg-[#00875F] rounded-[8px]">
+              <button type="button" class="text-white font-bold text-[16px]">Publicar</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-[#323238] rounded-[8px] flex flex-col flex-1 w-full">
+          <div class="bg-[#323238] rounded-[8px] flex flex-col flex-1 w-full p-[40px]">
+            <div class="flex justify-between items-center">
+              <div class="flex gap-[16px]">
+                <img class="w-[60px] h-[60px] border-2 border-[#00B37E] rounded-[4px]" src="./assets/Dave.svg"
+                  alt="avatar">
+                <div class="flex flex-col justify-center">
+                  <h4 class="text-white text-[14px]">Devon Lane</h4>
+                  <span class="text-[14px] text-[#8d8d99]">Dev Frot-End</span>
+                </div>
+              </div>
+              <p class="text-[#8d8d99]">Publicado há 2h</p>
+            </div>
+            <div>
+              <p class="text-[#b9b9c1] mt-8">Fala galeraa 👋</p>
+              <p class="text-[#b9b9c1] mt-8">Finalmente finalizei meu novo site/portfólio. Foi um baita desafio criar
+                todo o design e codar na unha, mas consegui 💪🏻</p>
+              <div class="flex items-center">
+                <p class="text-[#b9b9c1] mt-8">Acesse e deixe seu feedback 👉</p>
+                <p class="text-[#00B37E] mt-8">devonlane.design</p>
+              </div>
+              <p class="text-[#00B37E] mt-8">#uiux #userexperience</p>
+            </div>
+            <hr class="w-full border-[#E5E5E5] mt-[24px] mb-[24px]">
+            <div class="flex flex-col gap-[16px] mb-[32px]">
+              <h3 class="font-bold text-[16px] text-[#E1E1E6]">Deixe seu feedback</h3>
+              <input type="text" placeholder="Escreva um comentário..."
+                class="text-[#b9b9c1] px-[16px] pb-[48px] bg-black w-[752px] h-[96px] rounded-[8px] border-1 border-[#00B37E]">
+            </div>
+            
+            <div class="flex w-[752px] h-[156px] gap-[16px] mb-[24px]">
+              <img class="w-[50px] h-[50px] z-10 rounded-[8px]" src="https://github.com/juliocesarfg2004.png"
+                alt="avatar">
+              <div class="flex flex-col gap-[16px]">
+                <div class="flex justify-between w-[686px] h-[120px] rounded-[9px] bg-[#29292E]">
+                  <div class="flex flex-col px-[16px] mt-[16px]">
+                    <h4 class="text-white text-[14px]">Júlio César (você)</h4>
+                    <p class="text-white text-[13px]">Cerca de 2h</p>
+                    <p class="text-white text-[14px] mt-[16px]">Muito bom Devon, parabéns!! 👏👏</p>
+                  </div>
+                  <img src="./assets/Lixeira.svg" alt="Lixeira" class="w-[24px] h-[24px] mt-[16px] mr-[16px]">
+                </div>
+                <div class="flex gap-[10px]">
+                  <img src="./assets/Aplauso.svg" alt="aplausos" class="w-[20px] h-[20px]">
+                  <p class="text-[#8D8D99] text-[14px] font-bold">Aplaudir • 03</p>
+                </div>
+              </div>
+            </div>
+            <div class="flex w-[752px] h-[156px] gap-[16px] mb-[24px]">
+              <img class="w-[50px] h-[50px] z-10 rounded-[8px]" src="./assets/Jenny.svg"
+                alt="avatar">
+              <div class="flex flex-col gap-[16px]">
+                <div class="flex justify-between w-[686px] h-[120px] rounded-[9px] bg-[#29292E]">
+                  <div class="flex flex-col px-[16px] mt-[16px]">
+                    <h4 class="text-white text-[14px]">Jenny Wilson</h4>
+                    <p class="text-white text-[13px]">Cerca de 3h</p>
+                    <p class="text-white text-[14px] mt-[16px]">Adorei seu novo portifa Devon!</p>
+                  </div>
+                </div>
+                <div class="flex gap-[10px]">
+                  <img src="./assets/AplaudirVerde.svg" alt="aplausos" class="w-[20px] h-[20px] font-[#00B37E]">
+                  <p class="text-[#00B37E] text-[14px] font-bold">Aplaudir • 33</p>
+                </div>
+              </div>
+            </div>
+            <div class="flex w-[752px] h-[156px] gap-[16px]">
+              <img class="w-[50px] h-[50px] z-10 rounded-[8px]" src="./assets/Jenny.svg"
+                alt="avatar">
+              <div class="flex flex-col gap-[16px]">
+                <div class="flex justify-between w-[686px] h-[120px] rounded-[9px] bg-[#29292E]">
+                  <div class="flex flex-col px-[16px] mt-[16px]">
+                    <h4 class="text-white text-[14px]">Bessie Cooper</h4>
+                    <p class="text-white text-[13px]">Cerca de 6h</p>
+                    <p class="text-white text-[14px] mt-[16px]">💜💜</p>
+                  </div>
+                </div>
+                <div class="flex gap-[10px]">
+                  <img src="./assets/Aplauso.svg" alt="aplausos" class="w-[20px] h-[20px] font-[#00B37E]">
+                  <p class="text-[#00B37E] text-[14px] font-bold">Aplaudir • 03</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </section>
+  </main>
+</body>
+
+</html>
